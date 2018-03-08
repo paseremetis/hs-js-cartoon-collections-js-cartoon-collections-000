@@ -37,8 +37,8 @@ var cheese = foods.find(function(element){
 function wordsWithB (words){
   var newWords = []
   for (let i = 0; i < words.length; i++){
-    if (words === words[i].startsWith(`b`)){
-      return newWords.push (`${words}`)
+    if (words[i].startsWith(`b`)){
+      newWords.push (`${words}`)
     }else{
       return newWords
     }
