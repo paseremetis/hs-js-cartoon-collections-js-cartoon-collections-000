@@ -25,9 +25,9 @@ function longPlaneteerCalls(words) {
 
 function findTheCheese (foods) {
 var cheese = foods.find(function(element){
-  return element === `cheddar`
+  return element === `cheddar` || element === `swiss`
 });
-     if(cheese === `cheddar`){
+     if(cheese === `cheddar` || element === `swiss` ){
         return (`${cheese}`)
    }else{
         return (`no cheese!`)
