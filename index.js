@@ -33,3 +33,10 @@ var cheese = foods.find(function(element){
         return (`no cheese!`)
   }
 }
+
+function wordsWithB (words){
+  var newWords = []
+  var bWords = words.find(function(element)){
+    return element === 
+  }
+}
