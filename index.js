@@ -39,8 +39,7 @@ function wordsWithB (words){
   for (let i = 0; i < words.length; i++){
     if (words[i].startsWith(`b`)){
       newWords.push (`${words}`)
+      }
     }
-      return newWords
-    }
-  }
+    return newWords
 }
