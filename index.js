@@ -13,8 +13,7 @@ function summonCaptainPlanet(planeteerCalls){
        planeteerCalls[i] = (planeteerCalls[i]+ `!`);
     }
     return planeteerCalls
-}
-
+  }
 
 function longPlaneteerCalls(words) {
   if (words.length > 4){
@@ -24,14 +23,13 @@ function longPlaneteerCalls(words) {
   }
 }
 
-
 function findTheCheese (foods) {
 var cheese = foods.find(function(element){
   return element === `cheddar`
 });
-if(cheese === `cheddar`){
-  return (`${cheese}`)
-}else{
-  return (`no cheese!`)
+     if(cheese === `cheddar`){
+        return (`${cheese}`)
+   }else{
+        return (`no cheese!`)
   }
 }
